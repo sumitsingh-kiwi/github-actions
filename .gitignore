@@ -1,0 +1,5 @@
+env
+static
+.git
+__pycache__/*
+.idea/*

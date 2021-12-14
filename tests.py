@@ -25,7 +25,7 @@ class BasicTests(unittest.TestCase):
     # executed after each test
     def tearDown(self):
         """ tear down function"""
-        pass
+        print("after test case execution")
 
     # tests
     def test_main_page(self):
@@ -35,5 +35,4 @@ class BasicTests(unittest.TestCase):
 
 
 if __name__ == "__main__":
-    """ call the main file """
     unittest.main()

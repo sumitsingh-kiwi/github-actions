@@ -33,6 +33,10 @@ class BasicTests(unittest.TestCase):
         response = self.app.get('/', follow_redirects=True)
         self.assertEqual(response.status_code, 200)
 
+    def test_demo(self):
+        """ a dummy failure test case """
+        self.assertEqual(2, 4)
+
 
 if __name__ == "__main__":
     unittest.main()

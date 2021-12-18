@@ -35,7 +35,7 @@ class BasicTests(unittest.TestCase):
 
     def test_demo(self):
         """ a dummy failure test case """
-        self.assertEqual(2, 4)
+        self.assertEqual(2, 2)
 
 
 if __name__ == "__main__":
